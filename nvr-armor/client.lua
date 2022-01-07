@@ -1,7 +1,7 @@
 
 
-RegisterNetEvent('nvr-armour:use')
-AddEventHandler ('nvr-armour:use', function()
+RegisterNetEvent('never-armour:use')
+AddEventHandler ('never-armour:use', function()
     TriggerEvent("mythic_progbar:client:progress", {
         name = "unique_action_name",
         duration = 4700,
